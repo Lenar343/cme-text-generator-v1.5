@@ -11,7 +11,7 @@ async function generateURL() {
   const url = document.getElementById('urlInput').value;
 
   try {
-    const response = await fetch('https://lenot344.app.n8n.cloud/webhook/url-generate', {
+    const response = await fetch('https://lenyes346.app.n8n.cloud/webhook/url-generate', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -43,7 +43,7 @@ async function generateText() {
   const text = document.getElementById('textInput').value;
 
   try {
-    const res = await fetch('https://lenot344.app.n8n.cloud/webhook/text-prompt', {
+    const res = await fetch('https://lenyes346.app.n8n.cloud/webhook/text-prompt', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -77,7 +77,7 @@ function postText() {
 async function generateArticles() {
   const WS_AI = "WS_AI";
   try {
-    const res = await fetch('https://lenot344.app.n8n.cloud/webhook/generate-articles', {
+    const res = await fetch('https://lenyes346.app.n8n.cloud/webhook/generate-articles', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
